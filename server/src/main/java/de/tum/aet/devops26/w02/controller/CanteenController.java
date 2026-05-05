@@ -32,7 +32,6 @@ public class CanteenController {
         if (todayMeals.isEmpty()) {
             return ResponseEntity.noContent().build();
         }
-
         return ResponseEntity.ok(todayMeals);
     }
 }
